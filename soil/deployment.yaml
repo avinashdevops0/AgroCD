@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: soil
+  template:
+    metadata:
+      labels:
+        app: soil
+    spec:
+      containers:
+        - name: soil-1
+          image: avinashg0/soil
+          ports:
+            - containerPort: 80
