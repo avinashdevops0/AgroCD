@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: water-1
-          image: avinasg0/water
+          image: avinashg0/water
           ports:
             - containerPort: 80
