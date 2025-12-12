@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: green-1
-          image: avinasg0/green
+          image: avinashg0/green
           ports:
             - containerPort: 80
