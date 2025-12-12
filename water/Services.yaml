@@ -5,6 +5,8 @@ metadata:
 spec:
   selector:
     app: water
+    app: green
+    app: soil
   type: LoadBalancer
   ports:
     - port: 80
