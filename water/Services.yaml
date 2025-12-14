@@ -7,7 +7,7 @@ spec:
     app: water
     app: green
     app: soil
-  type: LoadBalancer
+  type: NodePort
   ports:
     - port: 80
       targetPort: 80
